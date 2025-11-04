@@ -25,7 +25,7 @@ public class PessoaController {
         p.setNome(nome);
         p.setEmail(email);
         pessoaRepository.save(p);
-        return "redirect/";
+        return "redirect:/";
     }
 
     @GetMapping("/sobre")
